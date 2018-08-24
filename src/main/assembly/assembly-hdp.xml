@@ -1,5 +1,5 @@
 <assembly>
-<id>make-cdh</id>
+<id>make-hdp</id>
     <formats>
         <format>tar.gz</format>
     </formats>
@@ -8,7 +8,7 @@
             <directory>src/main/resources</directory>
             <outputDirectory>/</outputDirectory>
             <includes>
-                <include>plugins/cdh*/**</include>
+                <include>plugins/hdp*/**</include>
                 <include>plugins/__init__*</include>
                 <include>*</include>
             </includes>
